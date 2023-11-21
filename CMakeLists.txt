@@ -52,4 +52,4 @@ message(STATUS "| OS           : ${OS_NAME}")
 message(STATUS "| Build type   : ${CMAKE_BUILD_TYPE}")
 message(STATUS "*==================================*")
 
-#add_subdirectory(src)
+add_subdirectory(src)
