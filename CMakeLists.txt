@@ -44,6 +44,9 @@ else()
    set(OS_NAME "Unknown OS")
 endif()
 
+# nlohmann's json library.
+add_subdirectory(json)
+
 # Build configuration information.
 message(STATUS "*==================================*")
 message(STATUS "| Generator    : ${CMAKE_GENERATOR}")
