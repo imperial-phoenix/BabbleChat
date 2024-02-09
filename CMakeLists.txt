@@ -45,7 +45,7 @@ else()
 endif()
 
 # nlohmann's json library.
-add_subdirectory(json)
+add_subdirectory(external/json)
 
 # Build configuration information.
 message(STATUS "*==================================*")
